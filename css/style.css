@@ -1,10 +1,10 @@
 html,
 body{
-	height: 100%;
 	width: 100%;
-	font-family: 'Quicksand', sans-serif;
-    overflow-x: hidden;
+	font-family: 'Roboto Slab', serif;
+  overflow-x: hidden;
 }
+
 
 /*icon-bar*/
 .icon-bar{
@@ -59,81 +59,63 @@ a {
     top: 5px;
 }
 
-
-/*Button*/
-.text-btn{
-	height: 53px;
-	width: 150px;
-	border-radius: 180px;
-	font-size: 14px;
-  padding: 2px 0px;
+/* MINI NAVBAR */
+.left-social {
+  margin-left: 32em;
 }
 
-.big-button .text-btn {
-  border-radius: 32px;
-  width: 170px;
-  height: 50px;
+.icon-phone p {
+  padding-left: 22px;
+  margin-top: -30px;
 }
 
-.sub-button {
-  margin-left: -24em;
+.icon-mail p {
+  padding-left: 28px;
+  margin-top: -30px;
 }
 
-.sub-button .btn-success{
-  background-color: transparent;
-  border-color: #8dc63f;
+.icon-mail {
+  margin-left: 15em;
+  margin-top: -2em;
 }
 
-.sub-button .text-btn {
-  border-radius: -32px;
-  width: 170px;
-  height: 50px;
-}
-
-.nav-background {
-	background-color: #111709;
-  height: 3.8em;
-}
-
-.white-color {
-  color: #fff;
-}
-
-.donate-button {
-	margin-left: 65%;
-}
-
-.btn-default {
-	background-color: orange;
-	border-radius: 0px;
-	border-color: orange;
-}
-
-.social .icons  {
+.media-icon ul {
   list-style: none;
 }
 
-.social .icons li {
+.media-icon ul li {
   float: left;
-  padding: 1em;
+  margin-top: 12px;
 }
 
-.social .icons {
-  margin-left: -38px;
+.icon-phone .fa-phone {
+  margin-top: 11px;
 }
 
-.icons .fa-twitter {
-  font-size: 20px;
+.media-icon .fa-instagram {
+  margin-left: 68px;
+  color: #999;
 }
 
-.icons .fa-instagram {
-  font-size: 20px;
+.mini-navbar-button {
+  margin-left: 11em;
 }
 
-.social .icons li {
-  margin-top: -1em;
+.mini-navbar-button .btn-default {
+  border-radius: 22px;
+  font-size: 14px;
+  width: 150px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: white;
+  background-color: #8dc63f;
+  border-color: #8dc63f
 }
 
+.mini-navbar-button .btn-default:hover {
+  background-color: transparent;
+  color: #8dc63f;
+}
 
 /*navbar*/
 .kl-nav {
@@ -141,16 +123,13 @@ a {
 }
 
 .navbar-nav > li > a:hover, a:focus{
-  color: green;
+  color: #8dc63f;
   background-color: transparent;
 }
 
-
-.navbar-nav > li > a {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-right: 5px;
-    margin-left: 5px;
+.nav > li {
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .active a {
@@ -202,9 +181,6 @@ a {
 }
 
 
-
-
-
 /*content-intro*/
 
 .container-words {
@@ -225,10 +201,34 @@ a {
 	text-align: center;
 }
 
+.work-areas  .water-icon{
+  border: 1px solid #f4f4f4;
+  padding: 28px 14px 25px;
+  position: relative;
+}
+
+.water-icon h3 {
+  font-size: 20px;
+}
+
+.font-awesome {
+  position: relative;
+  height: 80px;
+  width: 80px;
+  margin: 17px auto 40px;
+  line-height: 120px;
+  transition: .4s ease;
+  border: 1px solid #f4f4f4;
+  border-radius: 5px;
+  transform: rotate(45deg);
+  left: 0px;
+  transition: .5s ease;
+}
+
 .water-icon p {
 	line-height: 1.5em;
   color: #999;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 /*Font-awesome-icons*/
@@ -281,18 +281,28 @@ a {
 	margin-top: 3em;
 }
 
+.about-text h1 {
+  font-size: 32px;
+}
+
 .about-text p {
   color: #999;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .letter-words p {
   color: #999;
-  font-size: 17px;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 26px;
+  font-weight: 400;
 }
 
-.letter-words {
-  margin-top: 0px;
+.letter-words h2 {
+  position: relative;
+  font-weight: 700;
+  top: -25px;
+  margin-bottom: -20px;
 }
 
 .sub-letter h3 {
