@@ -430,7 +430,107 @@ body{
 
 
 /* Gallery */
+.gallery-section {
+  padding-top: 50px;
+  background: #ffffff;
+}
 
+* {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  outline: none;
+}
+
+.gallery-section h3 {
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: 400;
+  color: #222222;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.gallery-section p {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 31px;
+  margin-bottom: 42px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.gallery-section .inner-container {
+  position: relative;
+  padding: 0px 10px;
+}
+
+.gallery-section .inner-box {
+  position: relative;
+  margin: 5px -15px;
+  padding: 0px 5px;
+}
+
+.gallery-section .inner-box .img_holder img {
+  position: relative;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.gallery-section .overlay-box {
+  padding-top: 21%;
+}
+
+.gallery-section .overlay-box {
+  position: absolute;
+  top: 0px;
+  left: 5px;
+  right: 5px;
+  bottom: 0px;
+  border-radius: 5px;
+  transform: scale(0,0);
+  -webkit-transform: scale(0,0);
+  -moz-transform: scale(0,0);
+  -ms-transform: scale(0,0);
+  -o-transform: scale(0,0);
+  transition: all 500ms ease;
+}
+
+.gallery-section .overlay-box h5 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  color: #ffffff;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.gallery-section .link-btn {
+  margin-top: 44px;
+}
+
+.link-btn .btn-default {
+  position: relative;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  background: #53d572;
+  padding: 10px 30px;
+  border: 1px solid #8dc63f;;
+  text-transform: uppercase;
+  transition: all 500ms ease;
+  font-family: 'Open Sans', sans-serif;
+  display: inline-block;
+  border-radius: 80px;
+  margin-top: 30px;
+  width: 150px;
+}
+
+.link-btn .btn-default:hover {
+  background-color: #fff;
+  color: #8dc63f;
+}
 
 /*fixed-image*/
 .fixed-image {
