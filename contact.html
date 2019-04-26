@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Donate || Tbern Foundation Organization</title>
+	<title>Contact || Tbern Foundation Organization</title>
 
 	<!--Meta Head-->
 	<meta charset="UTF-8">
@@ -76,7 +76,7 @@
                         <li><a href="our-approach.html">OUR APPROACH</a></li>
                         <li><a href="our-projects.html">PROJECTS</a></li>
                         <li><a href="our-team.html">OUR TEAM</a></li>
-                        <li class="active"><a href="donate.html">CONTACT</a></li>
+                        <li class="active"><a href="contact.html">CONTACT</a></li>
                     </ul>
                 </div>
             </div>
@@ -88,7 +88,7 @@
         <div class="full-about">
             <div class="container container-about">
                 <div class="texts">
-                    <p><h1>DONATE</h1></p>
+                    <p><h1>CONTACT</h1></p>
                 </div>
             </div>
         </div>
@@ -96,82 +96,93 @@
     <div class="side-nav">
         <ul class="left-nav">
             <li><a href="index.html">HOME <span class="fa fa-chevron-right"></span></a></li>
-            <li><span class="colored">DONATE</span></li>
+            <li><span class="colored">CONTACT</span></li>
         </ul>
     </div>
 
 
     <!-- Contact Session -->
-    <div class="container-fluid contact-session">
-        <div class="row">
-            <div class="container contact-text">
-                <div class="letter-contact">
-                    <p><h1>Get Touch With Us</h1></p>
-                    <p>We recently helped a small business grow from break-even to over $1m profit in less than<br> 2 years. Please find below contact details and contact us today!</p>
+    <section class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <ul class="contact-list">
+                        <li class="item">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <h5>Address</h5>
+                            <p>
+                                16/14 Accra Road, Mallam,
+                                <br>
+                                Awoshie, Ghana.
+                            </p>
+                        </li>
+                        <li class="item">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            <h5>Phone</h5>
+                            <p>+123-456-7890</p>
+                        </li>
+                        <li class="item">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                            <h5>Email</h5>
+                            <p>info@tbernfoundation.com, support@tbernfoundation.com</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                    <div class="contact-area">
+                        <section class="section-title">
+                            <h3>Get in touch</h3>
+                            <p>Please call or email us and we will get back to you soon</p>
+                        </section>
+                    </div>
+                    <div class="default-form-area">
+                        <form id="contact-form" name="contact_form" class="default-form" action="" method="post" novalidate="novalidate">
+                            <div class="row">
+                                <div class="col-md-5 col-sm-12 col-xs-12">
+                                    <div class="contact-area-left">
+                                        <div class="form-group">
+                                            <input type="text" placeholder="Your Name">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" placeholder="Enter Name">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" placeholder="Phone Number">
+                                        </div>
+                                        <div class="form-group top-padd">
+                                            <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value>
+                                            <button class="btn-style-one" type="submit" data-loading-text="Please wait...">send message</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-7 col-sm-12 col-xs-12">
+                                    <div class="contact-area-right">
+                                        <div class="form-group">
+                                            <textarea placeholder="message"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-      
-
-
-    <!-- Contact Form -->
-    <div class="container-fluid">
-        <div class="container">
-              <div class="row">
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">                        
-                  </div>
-              </div>
-
-              <div class="row">
-
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-
-                      <form id="contact-form" name="myForm" class="form" action="#" onsubmit="return validateForm()" method="POST" role="form">
-
-                          <div class="form-group">
-                              <label class="form-label" id="nameLabel" for="name"></label>
-                              <input type="text" class="form-control" id="name" name="name" placeholder="Your name" tabindex="1">
-                          </div>
-
-                          <div class="form-group">
-                              <label class="form-label" id="emailLabel" for="email"></label>
-                              <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" tabindex="2">
-                          </div>
-
-                          <div class="form-group">
-                              <label class="form-label" id="subjectLabel" for="sublect"></label>
-                              <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" tabindex="3">
-                          </div>
-
-                          <div class="form-group">
-                              <label class="form-label" id="messageLabel" for="message"></label>
-                              <textarea rows="6" cols="60" name="message" class="form-control" id="message" placeholder="Your message" tabindex="4"></textarea>                                 
-                          </div>
-
-                          <div class="text-center margin-top-25">
-                              <button type="submit" class="btn btn-mod btn-border btn-large">Send Message</button>
-                          </div>
-
-                      </form><!-- End form -->
-                    
-                  </div><!-- End col -->
-
-              </div><!-- End row -->
-              
-            </div><!-- End container -->
-        </div>
-    </div>
+    </section>
 
 
     <!-- Google-Map -->
     <div class="bottom-map">
-        <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2645.9577697739874!2d-89.21424329999999!3d48.457339800000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4d5923eaca84fa67%3A0xfd2f9f807114acd4!2s292+Shuniah+St%2C+Thunder+Bay%2C+ON+P7A+3A2!5e0!3m2!1sen!2sca!4v1424272931061" width=100% height="450" frameborder="0" style="border:0"> -->
-                
-            </iframe>
-          </div>
+        <div class="full-map">
+            <div class="row">
+                <div class="map-section">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2645.9577697739874!2d-89.21424329999999!3d48.457339800000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4d5923eaca84fa67%3A0xfd2f9f807114acd4!2s292+Shuniah+St%2C+Thunder+Bay%2C+ON+P7A+3A2!5e0!3m2!1sen!2sca!4v1424272931061" width=100% height="350" frameborder="0" style="border:0 ">
+                            
+                        </iframe>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -188,7 +199,7 @@
                     </div>
                     <div class="col-md-3 col-sm-3 col-xs-12">
                         <div class="gift-button">
-                            <a href="donate.html" class="btn btn-default btn-lg text-btn">get involved</a>
+                            <a href="contact.html" class="btn btn-default btn-lg text-btn">get involved</a>
                         </div>
                     </div>
                 </div>
@@ -220,6 +231,10 @@
                                             <li>
                                                 <span class="fa fa-envelope"></span>
                                                 Support@tbernfoundation.com
+                                            </li>
+                                            <li>
+                                                <span class="fa fa-envelope"></span>
+                                                info@tbernfoundation.com
                                             </li>
                                         </ul>
                                     </div>

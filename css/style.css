@@ -530,6 +530,7 @@ body{
 .link-btn .btn-default:hover {
   background-color: #fff;
   color: #8dc63f;
+  transition: 2s;
 }
 
 /*fixed-image*/
@@ -542,36 +543,35 @@ body{
 }
 
 .fixed-cover {
-	height: 100vh;
+	height: 80vh;
 	width: 100%;
   background-color: #0000008c;
 }
 
-.margin-image {
-	margin-top: 0em;
-}
-
-.padding-top {
+.fixed-text {
   text-align: center;
-  margin-top: 80px;
+  padding-top: 8em;
 }
 
-.poverty-child h1 {
+.text-heads h2 {
   color: #fff;
+  font-size: 38px;                                                
   text-decoration: underline;
 }
 
-.poverty-child h3 {
+.text-heads h4 {
   color: #fff;
-  padding-top: 11px;
-  font-size: 31px;
+  font-size: 23px;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 22px;
 }
 
-.fact-text p {
+.fact-text {
   color: #fff;
-  padding-top: 32px;
-  font-size: 27px;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
 }
+
 
 
 
@@ -867,6 +867,8 @@ a {
   color: #8dc63f;
 }
 
+
+
 /* Main-Footer */
 .main-footer {
   position: relative;
@@ -983,10 +985,6 @@ h1, h2, h3, h4, h5 {
   font-family: 'Roboto Slab', serif;
   color: #303030;
 }
-
-
-
-
 
 
 .contact-info {
@@ -1224,6 +1222,8 @@ button {
   transition: .3s ease;
 }
 
+
+
 /* Scroll-Top Css */
 .scroll-top {
   width: 50px;
@@ -1297,18 +1297,6 @@ button {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*About Us Css*/
 .about-view {
   background-image: url('img/hero.jpg');
@@ -1359,6 +1347,8 @@ button {
 .fa-chevron-right {
   padding-left: 11px;
 }
+
+
 
 /*Our Team*/
 .team{
@@ -1480,6 +1470,13 @@ i.red{
   margin-left: -1px;
 }
 
+.read-buttons a {
+  color: #8dc63f;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
 
 
 
@@ -1515,6 +1512,13 @@ i.red{
   color: #999;
 }
 
+.join-button a {
+  font-size: 14px;
+  color: #8dc63f;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
 
 /*Read More CLEAN BEACH AND OCEAN PRESERVATION*/
 .ocean {
@@ -1545,116 +1549,238 @@ i.red{
 }
 
 
-/*Resources Css*/
+/*Projects Css*/
+.container-projects {
+  margin-top: 100px;
+}
 
+.img-projects img {
+  min-width: 80em;
+  max-height: 35em;
+}
 
+.paragraph-projects {
+  padding-top: 28px;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+.paragraph-projects h4 {
+  font-size: 32px;
+  color: #000;
+  font-family: 'Roboto Slab', sans-serif;
+}
+
+.paragraph-projects h6 {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.paragraph-projects p{
+  font-size: 14px;
+  font-weight: 500;
+  color: #999;
+
+}
 
 
 /*Contact Css*/
-.contact-text {
-  text-align: center;
-  margin-top: 3em;
+.contact-section {
+  padding: 100px 0px 90px;
+  position: relative;
 }
 
-.letter-contact p {
-  font-size: 16px;
-  color: #999;
+.contact-section .contact-list {
+  position: relative;
 }
 
-.col-xs-12.col-sm-12.col-md-12.col-lg-12 {
-  padding: 0 20% 0 20%;
+.contact-list li {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
 }
 
-.margin-top-25 {
-  margin-top: 25px;
+.contact-section .contact-list .item:nth-child(1) {
+  padding: 30px 0px 20px 72px;
 }
 
-.form-title {
-  padding: 25px;
-  font-size: 30px;
-  font-weight: 300;
+.contact-section .contact-list .item{
+  padding: 30px 0px 20px 72px;
 }
 
-.form-group .form-control {
-  -webkit-box-shadow: none;
-  border-bottom: 1px;
-  border-style: none none solid none;
-  border-radius:0; 
-  border-color: #000;
+.contact-section .contact-list .item {
+  position: relative;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  height: 150px;
+  border: 1px solid #e5e5e5;
 }
 
-.form-group .form-control:focus {
+.contact-section .contact-list .item:nth-child(1) i {
+  font-size: 34px;
+}
+
+.contact-section .contact-list .item i {
+  font-size: 34px;
+}
+
+.contact-section .contact-list .item i {
+  position: absolute;
+  top: 38px;
+  left: 30px;
+  color: #53d572;
+}
+
+.contact-section .contact-list .item h5 {
+  font-size: 20px;
+  line-height: 30px;
+  color: #222222;
+  font-weight: 400;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+  font-family: 'Roboto Salo', sans-serif;
+}
+
+.contact-section .contact-list .item p {
+  font-size: 14px;
+  line-height: 26px;
+  color: #848484;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.contact-section .contact-area {
+  margin-left: 22px;
+}
+
+.contact-section .contact-area .section-title {
+  margin-top: -12px;
+  padding-bottom: 44px;
+}
+
+.contact-section .section-title h3 {
+  font-size: 36px;
+  line-height: 48px;
+  color: #222222;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: 'Roboto Salo', sans-serif;
+}
+
+.contact-section .section-title p {
+  font-size: 17px;
+  line-height: 30px;
+  color: #848484;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.default-form-area {
+  padding: 0px;
+  margin-top: -54px;
+}
+
+.default-form {
+  position: relative;
+}
+
+.contact-section .contact-area-left {
+  margin-right: -16px;
+}
+
+.default-form .form-group {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.contact-section .default-form input[type="text"], .contact-section .default-form input[type="email"], .contact-section .default-form input[type="password"], .contact-section .default-form input[type="number"], .contact-section .default-form select {
+  height: 50px;
+  padding: 7px 14px;
+}
+
+.default-form .form-group {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.default-form input[type="text"], .default-form input[type="email"], .default-form input[type="password"], .default-form input[type="number"], .default-form select, .default-form textarea {
+  display: block;
+  width: 100%;
+  line-height: 26px;
+  height: 45px;
+  font-size: 14px;
   box-shadow: none;
-  border-width: 0 0 2px 0;
-  border-color: #000;
-  
+  color: #848484;
+  text-transform: capitalize;
+  background: #ffffff;
+  padding: 7px 19px;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
 }
 
-textarea {
+.contact-section .form-group.top-padd {
+  padding-top: 32px;
+}
+
+.default-form .form-group {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.btn-style-one {
+  position: relative;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  background: #53d572;
+  padding: 10px 30px;
+  border: 1px solid #53d572;
+  text-transform: uppercase;
+  transition: all 500ms ease;
+  font-family: 'Open Sans', sans-serif;
+  display: inline-block;
+  border-radius: 80px;
+}
+
+.btn-style-one:hover {
+  background-color: #fff;
+  color: #8dc63f;
+  transition: 2s;
+}
+
+.contact-section .contact-area-right {
+  margin-left: 16px;
+}
+
+.default-form .form-group {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.contact-section .default-form textarea {
   resize: none;
+  height: 210px;
 }
 
-.btn-mod.btn-large {
-    height: auto;
-    padding: 13px 52px;
-    font-size: 15px;
-}
-
-.btn-mod.btn-border {
-    color: #000000;
-    border: 1px solid #000000;
-    background: transparent;
-    border-radius: 22px;
-}
-
-.btn-mod, a.btn-mod {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    padding: 4px 13px;
-    color: #fff;
-    background: rgba(34,34,34, .9);
-    border: 1px solid transparent;
-    font-size: 11px;
-    font-weight: 400;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 2px;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    -webkit-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -moz-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -o-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-}
-
-.btn-mod.btn-border:hover, .btn-mod.btn-border:active, .btn-mod.btn-border:focus, .btn-mod.btn-border:active:focus {
-    color: #fff;
-    border-color: #fff;
-    background: #88C425;
-    outline: none;
-}
-
-@media only screen and (max-width: 500px) {
-    .btn-mod.btn-large {
-       padding: 6px 16px;
-       font-size: 11px;
-    }
-  
-    .form-title {
-        font-size: 20px;
-  }
+.map-section iframe {
+  margin-bottom: -75px;
 }
 
 
-#success-message {
-  opacity: 0;
-}
+
+
+
+
+
+
+
 
 
 
