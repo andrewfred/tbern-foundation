@@ -570,6 +570,7 @@ body{
   color: #fff;
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
+  line-height: 28px;
 }
 
 
@@ -1379,12 +1380,12 @@ h6.description{
   margin-top: -22px;
 }
 
-.profile .img-box{
+.profile .img-boxs{
   opacity: 1;
   display: block;
   position: relative;
 }
-.profile .img-box:after{
+.profile .img-boxs:after{
   content:"";
   opacity: 0;
   background-color: rgba(0, 0, 0, 0.75);
@@ -1394,7 +1395,7 @@ h6.description{
   top: 0;
   bottom: 0;
 }
-.img-box ul{
+.img-boxs ul{
   position: absolute;
   z-index: 2;
   bottom: 50px;
@@ -1405,16 +1406,16 @@ h6.description{
   margin:0px;
   opacity: 0;
 }
-.profile .img-box:after, .img-box ul, .img-box ul li{
+.profile .img-boxs:after, .img-boxs ul, .img-boxs ul li{
   -webkit-transition: all 0.5s ease-in-out 0s;
     -moz-transition: all 0.5s ease-in-out 0s;
     transition: all 0.5s ease-in-out 0s;
 }
-.img-box ul i{
+.img-boxs ul i{
   font-size: 20px;
   letter-spacing: 10px;
 }
-.img-box ul li{
+.img-boxs ul li{
   width: 30px;
     height: 30px;
     text-align: center;
@@ -1423,21 +1424,21 @@ h6.description{
     padding: 5px;
   display: inline-block;
 }
-.img-box a{
+.img-boxs a{
   color:#fff;
 }
-.img-box:hover:after{
+.img-boxs:hover:after{
   opacity: 1;
 }
-.img-box:hover ul{
+.img-boxs:hover ul{
   opacity: 1;
 }
-.img-box ul a{
+.img-boxs ul a{
   -webkit-transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
 }
-.img-box a:hover li{
+.img-boxs a:hover li{
   border-color: #fff;
   color: #88C425;
 }
@@ -1551,7 +1552,7 @@ i.red{
 
 /*Projects Css*/
 .container-projects {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .img-projects img {
@@ -1777,13 +1778,68 @@ i.red{
 
 
 
-
-
-
-
-
-
-
 /* Media Queries Mobile Responsive*/
+@media only screen and (max-width: 767px) {
+  .float_left {
+    text-align: center;
+  }
+  .social {
+    text-align: center;
+  }
+  .float_right .thm-btn{
+    text-align: center;
+    margin-top: 52px;
+  }
+  .social {
+    float: left;
+  }
+  .letter-words {
+    margin-top: 38px;
+  }
+  .fixed-text {
+    padding-top:  40px;
+  }
+  .view {
+    height: 80vh;
+  }
+  .container-zero {
+    margin-top: 40px;
+  }
+  .paint {
+    font-size: 40px;
+  }
+  .main-text {
+    font-size: 30px;
+  }
+  .long-text h1 {
+    font-size: 17px;
+  }
+  .gift-button .btn-default{
+    height: 50px;
+    width: 170px;
+    border-radius: 80px;
+    padding: 14px;
+  }
+  .background-mini {
+    height: 10.5em;
+  }
+  .mini-footer {
+    margin-top: 3px;
+  }
+  .img-box img {
+    height: 255px;
+    width: 310px;
+    padding-top: 22px;
+  }
+  .img-boxs {
+    height: 350px;
+    width: 300px;
+  }
+  .img-bio img{
+    height: 350px;
+    min-width: 310px;
+  }
+
+}
 
 
