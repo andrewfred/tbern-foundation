@@ -1,7 +1,7 @@
 html,
 body{
 	width: 100%;
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Roboto Slab', sans-serif;
   overflow-x: hidden;
 }
 
@@ -395,6 +395,7 @@ body{
 
 .mission-list {
   margin-top: 1em;
+  margin-left: 22px;
 }
 
 .long-mission li {
@@ -1505,6 +1506,7 @@ i.red{
 
 .img-box img {
   max-height: 25.5em;
+  padding-top: 22px;
 }
 
 .projects-letters p {
@@ -1534,7 +1536,7 @@ i.red{
 }
 
 .ocean-list {
-  margin-left: -22px;
+  margin-left: 22px;
 }
 
 .clean-beach li {
@@ -1839,7 +1841,17 @@ i.red{
     height: 350px;
     min-width: 310px;
   }
+  .clearfix {
+    display: block;
+    padding: 0;
+    margin: 0 -0.5 * em($grid-gutter);
+    text-align: left;
+    letter-spacing: -0.31em;
+    word-spacing: -0.43em;
+    text-rendering: optimizespeed;
+  }
 
 }
+
 
 
