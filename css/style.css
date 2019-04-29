@@ -1223,6 +1223,10 @@ button {
   transition: .3s ease;
 }
 
+.right-column .fa-instagram {
+  color: #999;
+}
+
 
 
 /* Scroll-Top Css */
@@ -1566,7 +1570,7 @@ i.red{
 }
 
 .paragraph-projects h4 {
-  font-size: 32px;
+  font-size: 31px;
   color: #000;
   font-family: 'Roboto Slab', sans-serif;
 }
@@ -1788,6 +1792,7 @@ i.red{
   .float_right .thm-btn{
     text-align: center;
     margin-top: 52px;
+    margin-right: 7em;
   }
   .social {
     float: left;
