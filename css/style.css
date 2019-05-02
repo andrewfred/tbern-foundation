@@ -1847,4 +1847,29 @@ i.red{
 }
 
 
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .view {
+    height: 40vh;
+  }
+  .container-zero {
+    margin-top: 6em;
+  }
+  .sec-padd3 {
+    padding: 0px 0 0px;
+  }
+  .fixed-cover {
+    height: 40vh;
+  }
+  .side-image img {
+    max-width: 100%;
+    height: 370px;
+  }
+}
+
+
 
