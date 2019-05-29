@@ -180,7 +180,7 @@ body{
 
 /*Cover-Background*/
 .view{
-  height: 100vh;
+  height: 85vh;
   background-image: url('img/la-beach.jpg');
   background-repeat: no-repeat;
   background-size: cover;
