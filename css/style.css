@@ -843,6 +843,7 @@ a {
   margin-top: 18px;
   font-size: 22px;
   font-weight: 700;
+  margin-left: -60px;
 }
 
 .mini-footer {
@@ -1817,6 +1818,7 @@ i.red{
   }
   .long-text h1 {
     font-size: 17px;
+    margin-left: 22px;
   }
   .gift-button .btn-default{
     height: 50px;
