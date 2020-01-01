@@ -243,6 +243,7 @@ body{
   font-family: 'Open sans' sans-serif;
 }
 
+
 .big-button .btn-default:hover {
   background-color: transparent;
   color: #8dc63f;
@@ -1777,9 +1778,7 @@ i.red{
 }
 
 
-
-
-
+/* Iphone 6/7/8 */
 /* Media Queries Mobile Responsive*/
 @media only screen and (max-width: 767px) {
   .float_left {
@@ -1842,6 +1841,13 @@ i.red{
   .img-bio img{
     height: 350px;
     min-width: 310px;
+  }
+  .right-column .fa-instagram {
+    color: #999;
+    margin-right: -250px;
+  }
+  .container-zero {
+    text-align: center;
   }
 
 }
